@@ -12,7 +12,8 @@
 
 2. **Setup:**
 
-    - Ensure you have a Hugging Face API token. You can obtain it from the [Hugging Face website](https://huggingface.co/join).
+    - Ensure you have a Hugging Face API token. You can obtain it from the [Hugging Face website](https://huggingface.co/settings/tokens).
+    - click on New Token and generate new token with read access and paste this api on the given code line
     - Set your Hugging Face API token as an environment variable:
     ```bash
     HUGGINGFACEHUB_API_TOKEN="your_hugging_face_api"
