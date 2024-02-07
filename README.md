@@ -21,7 +21,7 @@
 
 3. **Running the Code:**
 
-    - Run the `main.py` script with the path to the PDF document as an argument:
+    - Run the `chat.py` script with the path to the PDF document as an argument:
     - to run with new rfp's run the following command
    ```bash
     python chat.py <pdf_file_path>
@@ -64,7 +64,7 @@
 
 #### Files:
 
-- `main.py`: Main script to run the E-Governance document analysis.
+- `chat.py`: Main script to run the E-Governance document analysis.
 - `classifier.py`: Contains the implementation of the EGovernanceClassifier for classification.
 - `multiclass_predictor.py`: Implements functions for loading and predicting with the multiclass classification model.
 - `questions.json`: JSON file containing predefined questions for document analysis.
